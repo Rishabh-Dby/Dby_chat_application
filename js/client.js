@@ -14,7 +14,7 @@ const append=(message,position)=>{
     messageElement.classList.add('message');
     messageElement.classList.add(position);
     messagecontainer.append(messageElement);
-    messagecontainer.scrollTop=messagecontainer.scrollHeight; //scroll neeche rahega
+    messagecontainer.scrollTop=messagecontainer.scrollHeight; //keep the scroll down 
     
     //if sent by others then audio will play
     if(position=='left'){
